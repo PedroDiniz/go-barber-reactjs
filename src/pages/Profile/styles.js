@@ -18,7 +18,6 @@ export const Container = styled.div`
       padding: 0 15px;
       color: #fff;
       margin: 0 0 10px;
-
       &::placeholder {
         color: rgba(255, 255, 255, 0.7);
       }
@@ -26,7 +25,7 @@ export const Container = styled.div`
 
     span {
       color: #fb6f91;
-      align-self: center;
+      align-self: flex-start;
       margin: 0 0 10px;
       font-weight: bold;
     }
@@ -47,10 +46,9 @@ export const Container = styled.div`
       border: 0;
       border-radius: 4px;
       font-size: 16px;
-      transition: background 0.3s;
-
+      transition: background 0.2s;
       &:hover {
-        background: ${darken(0.04, '#3b9eff')};
+        background: ${darken(0.03, '#3b9eff')};
       }
     }
   }
@@ -65,10 +63,9 @@ export const Container = styled.div`
     border: 0;
     border-radius: 4px;
     font-size: 16px;
-    transition: background 0.3s;
-
+    transition: background 0.2s;
     &:hover {
-      background: ${darken(0.08, '#f64c75')};
+      background: ${darken(0.08, '#F64C75')};
     }
   }
 `;
